@@ -48,20 +48,14 @@ h1{
 }
 
 .color-midnightsuave{
-color: rgb(60, 60, 167);
+color: rgb(40 57 103);
 
 }
 
-.lista-ordenada{
-    background-color: darkkhaki;
-}
 
-#filtro-seleccionable{
-    list-style-type: circle;
-}
 
 .box-basic{
-background-color:midnightblue ;
+background-color: rgb(40 57 103) ;
 padding-top: 25px;
 padding-bottom: 25px;
 }
@@ -150,6 +144,16 @@ right: 25px;
 
    padding: 20PX;
 }
+.nosotros-cards{
+    display: flex;
+ justify-content: center;
+}
 
-
+.data-nosotros{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px;
+}
 
