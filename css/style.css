@@ -164,4 +164,15 @@ right: 25px;
     justify-content: flex-start;
     padding-bottom: 15px;
 }
-
+.contactanos-formulario{
+    position: relative;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.fondo-azul{
+    background-color: rgb(40 57 103) ;
+    border: 10px solid white;
+}
