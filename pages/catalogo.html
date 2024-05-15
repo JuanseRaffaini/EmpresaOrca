@@ -3,6 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/96c004d1f1.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="../css/style.css" />
 
     <title>Orca Bastidores | Catálogo</title>
@@ -10,88 +20,98 @@
 
   <body>
     <header>
-      <nav>
-        <ul>
-          <!-- MENU -->
-          <li><a href="../index.html">INICIO</a></li>
-          <li><a href="#">CATALOGO</a></li>
-          <li><a href="./nosotros.html">NOSOTROS</a></li>
-          <li><a href="./contactanos.html">CONTACTANOS</a></li>
-          <li><a href="./encontranos.html">ENCONTRANOS</a></li>
-        </ul>
-      </nav>
+      <section class="box-basic flex-header">
+        <h1 class="color-blanco">ORCA</h1>
+        <div class="ajuste-logo">
+          <img src="../assets/img/foto4-orca.jpg" height="100px" alt="logo" />
+        </div>
+      </section>
     </header>
     <main>
-      <h1 class="color-midnightblue">ORCA</h1>
-      <h2 class="color-midnightsuave"><span> Catalogo </span></h2>
-      <section>
-        <!-- la idea es crear un section en donde el usuario pueda interactuar a través de filtros y así encontrar el producto deseado -->
+      <nav class="box-menu">
+        <div class="inicio-menu">
+          <a href="../index.html"
+            ><i class="fa-solid fa-house color-midnightsuave"></i>
+          </a>
+        </div>
 
-        <ul id="filtro-seleccionable">
+        <ul class="links-menu">
+          <!-- MENU -->
           <li>
-            <p>Bastidores</p>
+            <a href="./contactanos.html" style="text-decoration: none"
+              >CONTACTANOS</a
+            >
           </li>
           <li>
-            <p>Estructuras</p>
+            <a href="#" style="text-decoration: none">CATALOGO</a>
           </li>
           <li>
-            <p>Telas imprimadas</p>
+            <a href="./nosotros.html" style="text-decoration: none">NOSOTROS</a>
           </li>
           <li>
-            <p>Combos</p>
-          </li>
-          <li>
-            <p>Descuentos</p>
+            <a href="./encontranos.html" style="text-decoration: none"
+              >ENCONTRANOS</a
+            >
           </li>
         </ul>
 
-        <p>Medidas</p>
-        <!-- en este caso lo mismo, quiero agregar una barra interactiva en el que el usuario pueda ingresar la medida deseada, para que no tenga que scrollear en el catalogo de productos, voy a agregar una imagen para que se entienda -->
-        <img src="../assets/img/foto6-orca.jpg" alt=" medidas del bastidor " />
-        <p>Grosor</p>
-        <!-- este item tambien es un filtro para seleccionar el grosor que desea el usuario, dejo una imagen tambien para que se entienda la idea -->
-        <ul id="filtro-seleccionable">
-          <li>
-            <p>3,5 cm</p>
-          </li>
-          <li>
-            <p>4,5 cm</p>
-          </li>
-        </ul>
+        <div class="carrito-menu">
+          <a href="#">
+            <i class="fa-solid fa-cart-shopping color-midnightsuave"></i
+          ></a>
+        </div>
+      </nav>
+      <section class="container-fluid">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12">
+            <h2 class="color-midnightsuave">CATALOGO</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quisquam et ducimus doloremque molestiae vero officiis sunt natus accusantium dolorum possimus quas quo quod perferendis ipsa nobis, inventore placeat voluptatem!
+            Dolores corporis modi totam. Odio molestiae, provident pariatur nostrum iusto atque accusantium voluptatum quidem recusandae quam! Fugit, ducimus impedit.</p>
 
-        <img src="../assets/img/foto2-orca.jpg" alt=" espesor del bastidor" />
-
-        <p>Precio</p>
-        <!-- este quiero que sea un filtro de precio para que el usuario pueda ingresar cuanto esta dispuesto a gastar y así sea mas rapida su busqueda -->
-      </section>
-
-      <section>
-        <!-- en este section quiero agregar todo el catalogo del mercado y que pueda ir modificandose a travez de los filtros aplicados por el usuario, ej: COMBOS, DESCUENTOS, MAS VENDIDOS, TODO EL STOCK A DISPOSICIÓN, POR PRECIO, ETC. Pego imagen de ejemplo -->
-        <img src="../assets/img/foto5-orca.jpg" alt=" Combo 4 Bastidores " />
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-12 listado-container ">
+            <img src="../assets/img/listadodeprecios2.jpg"  height="800px" alt="listado de precios 1">
+        
+          </div>
+         
+        </div>
+       
+           
+           
+        
       </section>
     </main>
-    <footer>
+    <footer class="box-basic">
       <!-- la idea es poner el logo que representa el cada link y que redireccione al usuario a nuestro perfil-->
-      <a
-        href="https://www.instagram.com/orcabastidores?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
-        target="_blank "
-      >
-        Instagram
-      </a>
+      <section>
+        <div class="flex-footer">
+          <a
+            href="https://www.instagram.com/orcabastidores?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+            target="_blank "
+          >
+            <i class="fa-brands fa-instagram color-blanco"></i>
+          </a>
 
-      <a
-        href="https://www.facebook.com/orcabastidores?mibextid=LQQJ4d"
-        target="_blank"
-      >
-        Facebook</a
-      >
+          <a
+            href="https://www.facebook.com/orcabastidores?mibextid=LQQJ4d"
+            target="_blank"
+          >
+            <i class="fa-brands fa-facebook-f color-blanco"></i
+          ></a>
 
-      <a
-        href="https://l.instagram.com/?u=https%3A%2F%2Fwa.link%2Fhsf29f&e=AT2gAxPKteBr0IqAd61pHyivK1ret5kJs-yNPFOxvuVRuDzapO9hurV1-WBpVBBEKfZA92dsigRKeenAZG7cOBBu3-BYT96Jwq5Ftg"
-        target="_blank"
-      >
-        Whats app
-      </a>
+          <a
+            href="https://l.instagram.com/?u=https%3A%2F%2Fwa.link%2Fhsf29f&e=AT2gAxPKteBr0IqAd61pHyivK1ret5kJs-yNPFOxvuVRuDzapO9hurV1-WBpVBBEKfZA92dsigRKeenAZG7cOBBu3-BYT96Jwq5Ftg"
+            target="_blank"
+          >
+            <i class="fa-brands fa-whatsapp color-blanco"></i>
+          </a>
+        </div>
+      </section>
     </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

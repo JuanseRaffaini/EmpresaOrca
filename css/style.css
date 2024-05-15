@@ -176,3 +176,13 @@ right: 25px;
     background-color: rgb(40 57 103) ;
     border: 10px solid white;
 }
+.listado-container{
+
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+max-width: 100%;
+
+
+}
