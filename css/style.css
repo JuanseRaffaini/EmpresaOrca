@@ -15,8 +15,31 @@ h1{
     font-size: 30px;
 }
 
-span{ 
-    font-family: "Dancing Script", cursive;
+@media only screen and (max-width: 768px) { 
+    nav.box-menu {
+        height: 100px;
+        align-items: flex-end;
+    }
+    .inicio-menu {
+        top: 10px;
+    }
+    .carrito-menu {
+        top: 10px;
+    }
+    
+}
+@media only screen and (min-width: 769px) { 
+    nav.box-menu {
+        height: 50px;
+        align-items: center;
+    }
+    .inicio-menu {
+        top: auto;
+    }
+    .carrito-menu {
+        top: auto;
+    }
+    
 }
 
 
@@ -64,18 +87,23 @@ align-items: center;
 
 }
 
+.ajuste-logo{
+    position: absolute;
+    left: 0px;
+    border-radius: 10px;
+}
+
 
 
 nav.box-menu{
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
-align-items: center;
 border: 1px solid;
 position: sticky;
 top: 0px;
 background-color: white;
-height: 50px;
+z-index: 100;
 
 }
 
@@ -95,6 +123,7 @@ width: 700px ;
 justify-content: space-evenly;
 list-style-type: none;
 padding-left: 0px;
+padding-top: 13px;
 
 
 
@@ -106,59 +135,21 @@ position: absolute;
 right: 25px;
 }
 
-section.box-basic{
-    position: sticky;
-    top: 0px;
-    z-index: 100;
+
+
+.box{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
 }
 
 .galeria{
 
-    display: grid;
-    grid-template-rows: repeat(4, 150px);
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-areas: 
-    "subtitulo subtitulo subtitulo"
-    "foto-1 foto-2 foto-3"
-    "foto-1 foto-2 foto-3"
-    "foto-1 foto-2 foto-3"
-    ;
-
+   padding: 20PX;
 }
 
 
-.box{
-border: 1px solid black;
-}
 
-.subtitulo{
-
-background-color: lightgreen;
-grid-area: subtitulo;
-display: flex;
-justify-content: space-evenly;
-align-items: center;
-flex-direction: column;
-
-
-
-}
-
-.foto-1{
-
-    background-color: blueviolet;
-    grid-area: foto-1;
-
-}
-.foto-2{
-
-    background-color: aquamarine;
-    grid-area: foto-2;
-    
-}
-.foto-3{
-    
-    background-color: coral;
-    grid-area: foto-3;
-
-}
