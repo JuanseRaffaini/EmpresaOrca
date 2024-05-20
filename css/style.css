@@ -1,188 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
 
-
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
-
-*{
-padding: 0px;
-margin: 0px;
-box-sizing: border-box;
-
-
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
 }
 
-h1{
-    font-family: "Dancing Script", cursive;
-    font-size: 30px;
+h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 30px;
 }
 
-@media only screen and (max-width: 768px) { 
-    nav.box-menu {
-        height: 100px;
-        align-items: flex-end;
-    }
-    .inicio-menu {
-        top: 10px;
-    }
-    .carrito-menu {
-        top: 10px;
-    }
-    
+@media only screen and (max-width: 768px) {
+  nav.box-menu {
+    height: 100px;
+    align-items: flex-end;
+  }
+  .inicio-menu {
+    top: 10px;
+  }
+  .carrito-menu {
+    top: 10px;
+  }
 }
-@media only screen and (min-width: 769px) { 
-    nav.box-menu {
-        height: 50px;
-        align-items: center;
-    }
-    .inicio-menu {
-        top: auto;
-    }
-    .carrito-menu {
-        top: auto;
-    }
-    
-}
-
-
-.color-blanco{
-    color:white ;
-}
-
-.color-midnightsuave{
-color: rgb(40 57 103);
-
-}
-
-
-
-.box-basic{
-background-color: rgb(40 57 103) ;
-padding-top: 25px;
-padding-bottom: 25px;
-}
-
-div.flex-footer{
-
-display: flex;
-flex-wrap: wrap;
-justify-content: space-around;
-width: 200px;
-align-items: center;
-font-size: 35px;
-
-}
-
-section.flex-header{
-display: flex;
-flex-wrap: wrap;
-flex-direction: column;
-height: 100px;
-justify-content: center;
-align-items: center;
-
-}
-
-.ajuste-logo{
-    position: absolute;
-    left: 0px;
-    border-radius: 10px;
-}
-
-
-
-nav.box-menu{
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-border: 1px solid;
-position: sticky;
-top: 0px;
-background-color: white;
-z-index: 100;
-
-}
-
-
-div.inicio-menu{
-display: flex;
-flex-wrap: wrap;
-font-size: 20px;
-position: absolute;
-left: 25px;
-
-}
-ul.links-menu{
-display: flex;
-flex-wrap: wrap;
-width: 700px ;
-justify-content: space-evenly;
-list-style-type: none;
-padding-left: 0px;
-padding-top: 13px;
-
-
-
-}
-div.carrito-menu{
-display: flex;
-font-size: 20px;
-position: absolute;
-right: 25px;
-}
-
-
-
-.box{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+@media only screen and (min-width: 769px) {
+  nav.box-menu {
+    height: 50px;
     align-items: center;
-
+  }
+  .inicio-menu {
+    top: auto;
+  }
+  .carrito-menu {
+    top: auto;
+  }
 }
 
-.galeria{
-
-   padding: 20PX;
-}
-.nosotros-cards{
-    display: flex;
- justify-content: center;
+.color-blanco {
+  color: white;
 }
 
-.data-nosotros{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    align-items: center;
-    padding: 10px;
+.color-midnightsuave {
+  color: rgb(40 57 103);
 }
-.flex-encontranos{
 
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    padding-bottom: 15px;
+.box-basic {
+  background-color: rgb(40 57 103);
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
-.contactanos-formulario{
-    position: relative;
-    height: 600px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+
+div.flex-footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 200px;
+  align-items: center;
+  font-size: 35px;
 }
-.fondo-azul{
-    background-color: rgb(40 57 103) ;
-    border: 10px solid white;
+
+section.flex-header {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
 }
-.listado-container{
 
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-align-items: center;
-max-width: 100%;
+.ajuste-logo {
+  position: absolute;
+  left: 0px;
+  border-radius: 10px;
+}
 
+nav.box-menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 1px solid;
+  position: sticky;
+  top: 0px;
+  background-color: white;
+  z-index: 100;
+}
 
+div.inicio-menu {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 20px;
+  position: absolute;
+  left: 25px;
+}
+ul.links-menu {
+  display: flex;
+  flex-wrap: wrap;
+  width: 700px;
+  justify-content: space-evenly;
+  list-style-type: none;
+  padding-left: 0px;
+  padding-top: 13px;
+}
+div.carrito-menu {
+  display: flex;
+  font-size: 20px;
+  position: absolute;
+  right: 25px;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.galeria {
+  padding: 20px;
+}
+.nosotros-cards {
+  display: flex;
+  justify-content: center;
+}
+
+.data-nosotros {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 10px;
+}
+.flex-encontranos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-bottom: 15px;
+}
+.contactanos-formulario {
+  position: relative;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.fondo-azul {
+  background-color: rgb(40 57 103);
+  border: 10px solid white;
+}
+.listado-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
 }
