@@ -16,6 +16,11 @@ h1 {
     height: 100px;
     align-items: flex-end;
   }
+  ul.links-menu {
+   
+    padding-left: 2px;
+    padding-top: 45px;
+  }
   .inicio-menu {
     top: 10px;
   }
@@ -27,6 +32,10 @@ h1 {
   nav.box-menu {
     height: 50px;
     align-items: center;
+  }
+  ul.links-menu {
+    padding-left: 0px;
+    padding-top: 13px;
   }
   .inicio-menu {
     top: auto;
@@ -98,8 +107,7 @@ ul.links-menu {
   width: 700px;
   justify-content: space-evenly;
   list-style-type: none;
-  padding-left: 0px;
-  padding-top: 13px;
+ 
 }
 div.carrito-menu {
   display: flex;
