@@ -59,7 +59,7 @@ h1 {
   padding-bottom: 25px;
 }
 
-div.flex-footer {
+footer.flex-footer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
