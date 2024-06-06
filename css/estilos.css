@@ -24,6 +24,16 @@ h1 {
   color: rgb(40, 57, 103);
 }
 
+.estilop {
+  color: rgb(40, 57, 103);
+  font-weight: bold;
+}
+
+.estiloh2 {
+  background-color: rgb(40, 57, 103);
+  color: white;
+}
+
 main .data-nosotros .espacio-row .nosotros-cards img {
   height: auto;
   width: 100%;
@@ -40,7 +50,7 @@ main nav.box-menu {
   border: 1px solid;
   position: sticky;
   top: 0px;
-  background-color: white;
+  background-color: rgb(40, 57, 103);
   z-index: 100;
 }
 main nav.box-menu div.inicio-menu {
