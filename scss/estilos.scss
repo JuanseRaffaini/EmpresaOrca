@@ -1,11 +1,12 @@
 @import "./utilities/variables";
 @import "./utilities/reset";
-@import "./utilities/global";
 @import "./utilities/mixin";
 @import "./utilities/extend";
+@import "./utilities/global";
 
 
 @import "./components/header";
+@import "./pages/main-index";
 @import "./pages/main-catalogo";
 @import "./pages/main-contactanos";
 @import "./pages/main-encontranos";

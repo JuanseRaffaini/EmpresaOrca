@@ -1,28 +1,58 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap");
 
 h1 {
-    font-family: $tipografia-dancing-h1;
-    font-size: 30px;
-  }
+  font-family: $tipografia-dancing-h1;
+  font-size: 30px;
+}
 
-  .box-basic {
-    background-color: $azul-orca;
-    padding-top: 25px;
-    padding-bottom: 25px;
-  }
-  .color-blanco {
-    color: $blanco;
-  }
-  .color-midnightsuave {
-    color: $azul-orca;
-  
-  }
-  .estilop{
-    color: $azul-orca;
-    font-weight: bold;
-  }
-  .estiloh2{
-    background-color: $azul-orca;
-    color: $blanco;
-  }
-  
+.galeria {
+  padding: 20px;
+}
+
+.box-basic {
+  background-color: $azul-orca;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.color-blanco {
+  color: $blanco;
+}
+.color-midnightsuave {
+  color: $azul-orca;
+}
+
+
+nav.box-menu {
+  @include flex( row, inherit, center, wrap);
+ border: 1px solid;
+ position: sticky;
+ top: 0px;
+ background-color: $blanco;
+ z-index: 100;
+
+
+}
+
+div.inicio-menu {
+  @include flex( row, inherit, inherit, wrap);
+  font-size: 20px;
+  position: absolute;
+  left: 25px;
+}    
+
+
+
+ul.links-menu {
+  @include flex( row, inherit, space-evenly, wrap);
+  width: 700px;
+  list-style-type: none;
+}
+
+
+div.carrito-menu {
+  @include flex( row, inherit, inherit, inherit);
+  font-size: 20px;
+  position: absolute;
+  right: 25px;
+}
+

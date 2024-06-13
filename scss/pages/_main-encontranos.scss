@@ -1,45 +1,8 @@
-main{
-
-    nav.box-menu {
-        @include flex( row, inherit, center, wrap);
-       border: 1px solid;
-       position: sticky;
-       top: 0px;
-       background-color: $blanco;
-       z-index: 100;
-
-
+main {
+  
+    .flex-encontranos {
+      @include flex(column, center, flex-start, inherit);
+      padding-bottom: 15px;
     }
-
-    div.inicio-menu {
-        @include flex( row, inherit, inherit, wrap);
-        font-size: 20px;
-        position: absolute;
-        left: 25px;
-    }    
-     
-    
-
-      ul.links-menu {
-        @include flex( row, inherit, space-evenly, wrap);
-        width: 700px;
-        list-style-type: none;
-      }
-    
- 
-      div.carrito-menu {
-        @include flex( row, inherit, inherit, inherit);
-        font-size: 20px;
-        position: absolute;
-        right: 25px;
-      }
-    
-      .galeria {
-        padding: 20px;
-        .flex-encontranos {
-          @include flex( column, center, flex-start, inherit);
-            padding-bottom: 15px;
-          }
-      }
-
+  
 }

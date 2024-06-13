@@ -5,9 +5,20 @@
   box-sizing: border-box;
 }
 
+main .data-nosotros .espacio-row .nosotros-cards img {
+  height: auto;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
 h1 {
   font-family: "Dancing Script", cursive;
   font-size: 30px;
+}
+
+.galeria {
+  padding: 20px;
 }
 
 .box-basic {
@@ -24,74 +35,7 @@ h1 {
   color: rgb(40, 57, 103);
 }
 
-.estilop {
-  color: rgb(40, 57, 103);
-  font-weight: bold;
-}
-
-.estiloh2 {
-  background-color: rgb(40, 57, 103);
-  color: white;
-}
-
-main .data-nosotros .espacio-row .nosotros-cards img {
-  height: auto;
-  width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-
-main nav.box-menu {
-  display: flex;
-  flex-direction: row;
-  align-items: inherit;
-  justify-content: center;
-  flex-wrap: wrap;
-  border: 1px solid;
-  position: sticky;
-  top: 0px;
-  background-color: rgb(40, 57, 103);
-  z-index: 100;
-}
-main nav.box-menu div.inicio-menu {
-  display: flex;
-  flex-direction: row;
-  align-items: inherit;
-  justify-content: inherit;
-  flex-wrap: wrap;
-  font-size: 20px;
-  position: absolute;
-  left: 25px;
-}
-main nav.box-menu ul.links-menu {
-  display: flex;
-  flex-direction: row;
-  align-items: inherit;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  width: 700px;
-  list-style-type: none;
-}
-main nav.box-menu div.carrito-menu {
-  display: flex;
-  flex-direction: row;
-  align-items: inherit;
-  justify-content: inherit;
-  flex-wrap: inherit;
-  font-size: 20px;
-  position: absolute;
-  right: 25px;
-}
-main .listado-container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 100%;
-}
-
-main nav.box-menu {
+nav.box-menu {
   display: flex;
   flex-direction: row;
   align-items: inherit;
@@ -103,7 +47,8 @@ main nav.box-menu {
   background-color: white;
   z-index: 100;
 }
-main div.inicio-menu {
+
+div.inicio-menu {
   display: flex;
   flex-direction: row;
   align-items: inherit;
@@ -113,7 +58,8 @@ main div.inicio-menu {
   position: absolute;
   left: 25px;
 }
-main ul.links-menu {
+
+ul.links-menu {
   display: flex;
   flex-direction: row;
   align-items: inherit;
@@ -122,7 +68,8 @@ main ul.links-menu {
   width: 700px;
   list-style-type: none;
 }
-main div.carrito-menu {
+
+div.carrito-menu {
   display: flex;
   flex-direction: row;
   align-items: inherit;
@@ -132,6 +79,39 @@ main div.carrito-menu {
   position: absolute;
   right: 25px;
 }
+
+header .flex-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 100px;
+}
+header .flex-header .ajuste-logo {
+  position: absolute;
+  left: 0px;
+  border-radius: 10px;
+}
+
+main .estilop {
+  color: rgb(40, 57, 103);
+  font-weight: bold;
+}
+main .estiloh2 {
+  background-color: rgb(40, 57, 103);
+  color: white;
+}
+
+main .listado-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 100%;
+}
+
 main .contactanos-formulario {
   display: flex;
   flex-direction: column;
@@ -146,51 +126,7 @@ main .fondo-azul {
   border: 10px solid white;
 }
 
-main nav.box-menu {
-  display: flex;
-  flex-direction: row;
-  align-items: inherit;
-  justify-content: center;
-  flex-wrap: wrap;
-  border: 1px solid;
-  position: sticky;
-  top: 0px;
-  background-color: white;
-  z-index: 100;
-}
-main div.inicio-menu {
-  display: flex;
-  flex-direction: row;
-  align-items: inherit;
-  justify-content: inherit;
-  flex-wrap: wrap;
-  font-size: 20px;
-  position: absolute;
-  left: 25px;
-}
-main ul.links-menu {
-  display: flex;
-  flex-direction: row;
-  align-items: inherit;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  width: 700px;
-  list-style-type: none;
-}
-main div.carrito-menu {
-  display: flex;
-  flex-direction: row;
-  align-items: inherit;
-  justify-content: inherit;
-  flex-wrap: inherit;
-  font-size: 20px;
-  position: absolute;
-  right: 25px;
-}
-main .galeria {
-  padding: 20px;
-}
-main .galeria .flex-encontranos {
+main .flex-encontranos {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -199,47 +135,6 @@ main .galeria .flex-encontranos {
   padding-bottom: 15px;
 }
 
-main nav.box-menu {
-  display: flex;
-  flex-direction: row;
-  align-items: inherit;
-  justify-content: center;
-  flex-wrap: wrap;
-  border: 1px solid;
-  position: sticky;
-  top: 0px;
-  background-color: white;
-  z-index: 100;
-}
-main div.inicio-menu {
-  display: flex;
-  flex-direction: row;
-  align-items: inherit;
-  justify-content: inherit;
-  flex-wrap: wrap;
-  font-size: 20px;
-  position: absolute;
-  left: 25px;
-}
-main ul.links-menu {
-  display: flex;
-  flex-direction: row;
-  align-items: inherit;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  width: 700px;
-  list-style-type: none;
-}
-main div.carrito-menu {
-  display: flex;
-  flex-direction: row;
-  align-items: inherit;
-  justify-content: inherit;
-  flex-wrap: inherit;
-  font-size: 20px;
-  position: absolute;
-  right: 25px;
-}
 main .data-nosotros {
   display: flex;
   flex-direction: column;
@@ -264,6 +159,11 @@ main .data-nosotros .espacio-row .nosotros-cards img {
 }
 
 footer .flex-footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;

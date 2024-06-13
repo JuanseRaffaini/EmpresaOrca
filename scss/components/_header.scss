@@ -1,0 +1,11 @@
+header{
+    .flex-header {
+        @include flex( column, center, center, wrap);
+        height: 100px;
+        .ajuste-logo {
+            position: absolute;
+            left: 0px;
+            border-radius: 10px;
+          }
+      }
+}

@@ -1,5 +1,6 @@
 footer {
   .flex-footer {
+    @include flex( row, center, space-around, wrap);
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
