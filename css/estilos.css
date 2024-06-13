@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 
-main .data-nosotros .espacio-row .nosotros-cards img {
+main .data-nosotros .espacio-row .nosotros-cards img, main .flex-encontranos img, main .listado-container img, main img, header .flex-header .ajuste-logo img {
   height: auto;
   width: 100%;
   -o-object-fit: cover;
@@ -93,6 +93,9 @@ header .flex-header .ajuste-logo {
   left: 0px;
   border-radius: 10px;
 }
+header .flex-header .ajuste-logo img {
+  height: 100px;
+}
 
 main .estilop {
   color: rgb(40, 57, 103);
@@ -102,7 +105,6 @@ main .estiloh2 {
   background-color: rgb(40, 57, 103);
   color: white;
 }
-
 main .listado-container {
   display: flex;
   flex-direction: row;
@@ -111,7 +113,6 @@ main .listado-container {
   flex-wrap: wrap;
   max-width: 100%;
 }
-
 main .contactanos-formulario {
   display: flex;
   flex-direction: column;
@@ -133,6 +134,10 @@ main .flex-encontranos {
   justify-content: flex-start;
   flex-wrap: inherit;
   padding-bottom: 15px;
+}
+main .flex-encontranos img {
+  width: 400px;
+  height: 250px;
 }
 
 main .data-nosotros {
@@ -170,4 +175,37 @@ footer .flex-footer {
   width: 200px;
   align-items: center;
   font-size: 35px;
+}
+
+@media only screen and (max-width: 1400px) {
+  nav.box-menu {
+    height: 50px;
+    align-items: center;
+  }
+  ul.links-menu {
+    padding-left: 0px;
+    padding-top: 13px;
+  }
+  .inicio-menu {
+    top: auto;
+  }
+  .carrito-menu {
+    top: auto;
+  }
+}
+@media only screen and (max-width: 768px) {
+  nav.box-menu {
+    height: 100px;
+    align-items: flex-end;
+  }
+  ul.links-menu {
+    padding-left: 2px;
+    padding-top: 45px;
+  }
+  .inicio-menu {
+    top: 10px;
+  }
+  .carrito-menu {
+    top: 10px;
+  }
 }/*# sourceMappingURL=estilos.css.map */

@@ -6,6 +6,12 @@ header{
             position: absolute;
             left: 0px;
             border-radius: 10px;
+            img{
+                @extend %img;
+                height: 100px;
+                
+              }
+        
           }
       }
 }

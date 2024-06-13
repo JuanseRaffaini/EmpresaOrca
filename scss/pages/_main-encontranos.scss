@@ -3,6 +3,12 @@ main {
     .flex-encontranos {
       @include flex(column, center, flex-start, inherit);
       padding-bottom: 15px;
+      img{
+        @extend %img;
+        width: 400px;
+        height: 250px;
+      
+      }
     }
   
 }

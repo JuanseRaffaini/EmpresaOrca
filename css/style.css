@@ -11,40 +11,6 @@ h1 {
   font-size: 30px;
 }
 
-@media only screen and (max-width: 768px) {
-  nav.box-menu {
-    height: 100px;
-    align-items: flex-end;
-  }
-  ul.links-menu {
-   
-    padding-left: 2px;
-    padding-top: 45px;
-  }
-  .inicio-menu {
-    top: 10px;
-  }
-  .carrito-menu {
-    top: 10px;
-  }
-}
-@media only screen and (min-width: 769px) {
-  nav.box-menu {
-    height: 50px;
-    align-items: center;
-  }
-  ul.links-menu {
-    padding-left: 0px;
-    padding-top: 13px;
-  }
-  .inicio-menu {
-    top: auto;
-  }
-  .carrito-menu {
-    top: auto;
-  }
-}
-
 .color-blanco {
   color: white;
 }
@@ -165,3 +131,6 @@ div.carrito-menu {
   align-items: center;
   max-width: 100%;
 }
+
+
+

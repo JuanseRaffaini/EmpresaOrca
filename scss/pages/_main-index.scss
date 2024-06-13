@@ -9,5 +9,9 @@ main{
         background-color: $azul-orca;
         color: $blanco;
       }
+      img{
+        @extend %img;
+        
+      }
 
 }

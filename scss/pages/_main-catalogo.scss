@@ -3,6 +3,12 @@ main {
   .listado-container {
     @include flex( row, center, center, wrap);
     max-width: 100%;
+
+    img{
+      @extend %img;
+      
+    }
   }
+ 
  
 }
