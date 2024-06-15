@@ -68,18 +68,23 @@ nav.box-menu {
   font-size: 20px;
 position: absolute;
 left: 25px;
+padding-top: 15px;
+
 
 }    
 .links-menu {
   @include flex( row, inherit, space-evenly, wrap);
   width: 700px;
   list-style-type: none;
+  padding-top: 15px;
+
 }
 .carrito-menu {
   @include flex( row, inherit, inherit, inherit);
   font-size: 20px;
   position: absolute;
   right: 25px;
+  padding-top: 15px;
 }
 
 }

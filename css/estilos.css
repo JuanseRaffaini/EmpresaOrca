@@ -100,6 +100,7 @@ nav.box-menu .inicio-menu {
   font-size: 20px;
   position: absolute;
   left: 25px;
+  padding-top: 15px;
 }
 nav.box-menu .links-menu {
   display: flex;
@@ -109,6 +110,7 @@ nav.box-menu .links-menu {
   flex-wrap: wrap;
   width: 700px;
   list-style-type: none;
+  padding-top: 15px;
 }
 nav.box-menu .carrito-menu {
   display: flex;
@@ -119,6 +121,7 @@ nav.box-menu .carrito-menu {
   font-size: 20px;
   position: absolute;
   right: 25px;
+  padding-top: 15px;
 }
 
 .bg-blue {
