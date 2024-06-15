@@ -21,6 +21,40 @@ h1 {
   color: $azul-orca;
 }
 
+section.desplegablenav{
+  display: none;
+  nav.box-menu-desplegable {
+    @include flex( column, inherit, center, wrap);
+   position: sticky;
+   background-color: $azul-orca;
+   z-index: 100;
+   .links-menu-desplegable {
+    @include flex( column, center, space-evenly, wrap);
+    width: auto;
+    list-style-type: none;
+    padding-left: 0px;
+    margin-bottom: 0px;
+     a{
+      color: $blanco;
+     }
+  }
+    
+  
+    .inicio-menu-desplegable {
+      @include flex( row, inherit, inherit, wrap);
+      font-size: 20px;
+      
+    
+  }
+  
+  .carrito-menu-desplegable {
+    @include flex( row, inherit, inherit, inherit);
+    font-size: 20px;
+  
+  
+  }
+  }    
+}
 
 nav.box-menu {
   @include flex( row, inherit, center, wrap);
@@ -29,30 +63,32 @@ nav.box-menu {
  top: 0px;
  background-color: $blanco;
  z-index: 100;
-
-
-}
-
-div.inicio-menu {
+ .inicio-menu {
   @include flex( row, inherit, inherit, wrap);
   font-size: 20px;
-  position: absolute;
-  left: 25px;
+position: absolute;
+left: 25px;
+
 }    
-
-
-
-ul.links-menu {
+.links-menu {
   @include flex( row, inherit, space-evenly, wrap);
   width: 700px;
   list-style-type: none;
 }
-
-
-div.carrito-menu {
+.carrito-menu {
   @include flex( row, inherit, inherit, inherit);
   font-size: 20px;
   position: absolute;
   right: 25px;
 }
+
+}
+
+
+
+.bg-blue{
+  background-color: $azul-orca;
+}
+
+
 

@@ -13,24 +13,85 @@
       src="https://kit.fontawesome.com/96c004d1f1.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="./css/estilos.css"/>
+    <link rel="stylesheet" href="./css/estilos.css" />
 
     <title>Orca bastidores | Inicio</title>
   </head>
 
   <body>
     <header>
-      
-      <section class="box-basic flex-header ">
- <!-- TITULO -->
- <h1 class="color-blanco ">ORCA</h1>
- <div class="ajuste-logo">
- <img src="./assets/img/foto4-orca.jpg" alt="logo">
- </div>
+      <section class="box-basic flex-header">
+        <!-- TITULO -->
+        <h1 class="color-blanco">ORCA</h1>
+        <div class="ajuste-logo">
+          <img src="./assets/img/foto4-orca.jpg" alt="logo" />
+        </div>
       </section>
     </header>
 
     <main>
+      <section class="desplegablenav">
+        <div
+          class="collapse"
+          id="navbarToggleExternalContent"
+          data-bs-theme="dark"
+        >
+          <div class="bg-blue p-4">
+            <nav class="box-menu-desplegable">
+              <div class="inicio-menu-desplegable">
+                <a href="#"><i class="fa-solid fa-house color-blanco"></i> </a>
+              </div>
+              <ul class="links-menu-desplegable">
+                <li>
+                  <a
+                    href="./pages/contactanos.html"
+                    style="text-decoration: none"
+                    >CONTACTANOS</a
+                  >
+                </li>
+                <li>
+                  <a href="./pages/catalogo.html" style="text-decoration: none"
+                    >CATALOGO</a
+                  >
+                </li>
+                <li>
+                  <a href="./pages/nosotros.html" style="text-decoration: none"
+                    >NOSOTROS</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="./pages/encontranos.html"
+                    style="text-decoration: none"
+                    >ENCONTRANOS</a
+                  >
+                </li>
+              </ul>
+              <div class="carrito-menu-desplegable">
+                <a href="#">
+                  <i class="fa-solid fa-cart-shopping color-blanco"></i
+                ></a>
+              </div>
+            </nav>
+          </div>
+        </div>
+        <nav class="navbar navbar-dark bg-blue">
+          <div class="container-fluid">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarToggleExternalContent"
+              aria-controls="navbarToggleExternalContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+        </nav>
+      </section>
+
       <nav class="box-menu">
         <div class="inicio-menu">
           <a href="#"><i class="fa-solid fa-house color-midnightsuave"></i> </a>
@@ -38,6 +99,7 @@
 
         <ul class="links-menu">
           <!-- MENU -->
+
           <li>
             <a href="./pages/contactanos.html" style="text-decoration: none"
               >CONTACTANOS</a
@@ -66,45 +128,88 @@
           ></a>
         </div>
       </nav>
-      
-      </div>
+
       <section class="galeria container-fluid">
         <div class="row">
-          <div class="col-sm-12 col-md-6 col-lg-4">
+          <div class="col-sm-12 col-md-12 col-lg-12">
             <h2 class="estiloh2">BASTIDORES & ESTRUCTURAS</h2>
             <p class="estilop">
-              LOS MEJORES BASTIDORES DE ARGENTINA HOY AL ALCANCE DE TUS MANOS
+              LOS MEJORES BASTIDORES DE ARGENTINA, HOY AL ALCANCE DE TUS MANOS
             </p>
           </div>
-          <div class="col-sm-12 col-md-6 col-lg-8">
+          <div class="col-sm-12 col-md-12 col-lg-12">
             <div id="carouselExampleIndicators" class="carousel slide">
               <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
               </div>
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img src="./assets/img/foto1-orca.jpg" class="d-block w-100" alt="terminaciones">
+                  <img
+                    src="./assets/img/img-freepick.jpg"
+                    class="d-block w-100"
+                    alt="terminaciones"
+                  />
                 </div>
                 <div class="carousel-item">
-                  <img src="./assets/img/foto2-orca.jpg" class="d-block w-100" alt="espesor">
+                  <img
+                    src="./assets/img/blank-canvas-painting-indoors-still-life.jpg"
+                    class="d-block w-100"
+                    alt="espesor"
+                  />
                 </div>
                 <div class="carousel-item">
-                  <img src="./assets/img/foto5-orca.jpg" class="d-block w-100" alt="promos">
+                  <img
+                    src="./assets/img/img-freepick-2.jpg"
+                    class="d-block w-100"
+                    alt="promos"
+                  />
                 </div>
               </div>
-              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
                 <span class="visually-hidden">Previous</span>
               </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
                 <span class="visually-hidden">Next</span>
               </button>
             </div>
           </div>
-          
         </div>
       </section>
     </main>

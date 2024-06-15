@@ -1,16 +1,19 @@
 main{
 
     .estilop {
+      @include flex(inherit, center, center, wrap);
         color: $azul-orca;
         font-weight: bold;
       }
       
       .estiloh2 {
+        @include flex(inherit, center, center, wrap);
         background-color: $azul-orca;
         color: $blanco;
       }
       img{
         @extend %img;
+        height: 650px;
         
       }
 

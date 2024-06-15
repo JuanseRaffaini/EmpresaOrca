@@ -35,6 +35,50 @@ h1 {
   color: rgb(40, 57, 103);
 }
 
+section.desplegablenav {
+  display: none;
+}
+section.desplegablenav nav.box-menu-desplegable {
+  display: flex;
+  flex-direction: column;
+  align-items: inherit;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: sticky;
+  background-color: rgb(40, 57, 103);
+  z-index: 100;
+}
+section.desplegablenav nav.box-menu-desplegable .links-menu-desplegable {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: auto;
+  list-style-type: none;
+  padding-left: 0px;
+  margin-bottom: 0px;
+}
+section.desplegablenav nav.box-menu-desplegable .links-menu-desplegable a {
+  color: white;
+}
+section.desplegablenav nav.box-menu-desplegable .inicio-menu-desplegable {
+  display: flex;
+  flex-direction: row;
+  align-items: inherit;
+  justify-content: inherit;
+  flex-wrap: wrap;
+  font-size: 20px;
+}
+section.desplegablenav nav.box-menu-desplegable .carrito-menu-desplegable {
+  display: flex;
+  flex-direction: row;
+  align-items: inherit;
+  justify-content: inherit;
+  flex-wrap: inherit;
+  font-size: 20px;
+}
+
 nav.box-menu {
   display: flex;
   flex-direction: row;
@@ -47,8 +91,7 @@ nav.box-menu {
   background-color: white;
   z-index: 100;
 }
-
-div.inicio-menu {
+nav.box-menu .inicio-menu {
   display: flex;
   flex-direction: row;
   align-items: inherit;
@@ -58,8 +101,7 @@ div.inicio-menu {
   position: absolute;
   left: 25px;
 }
-
-ul.links-menu {
+nav.box-menu .links-menu {
   display: flex;
   flex-direction: row;
   align-items: inherit;
@@ -68,8 +110,7 @@ ul.links-menu {
   width: 700px;
   list-style-type: none;
 }
-
-div.carrito-menu {
+nav.box-menu .carrito-menu {
   display: flex;
   flex-direction: row;
   align-items: inherit;
@@ -78,6 +119,10 @@ div.carrito-menu {
   font-size: 20px;
   position: absolute;
   right: 25px;
+}
+
+.bg-blue {
+  background-color: rgb(40, 57, 103);
 }
 
 header .flex-header {
@@ -98,13 +143,27 @@ header .flex-header .ajuste-logo img {
 }
 
 main .estilop {
+  display: flex;
+  flex-direction: inherit;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
   color: rgb(40, 57, 103);
   font-weight: bold;
 }
 main .estiloh2 {
+  display: flex;
+  flex-direction: inherit;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
   background-color: rgb(40, 57, 103);
   color: white;
 }
+main img {
+  height: 650px;
+}
+
 main .listado-container {
   display: flex;
   flex-direction: row;
@@ -136,7 +195,6 @@ main .flex-encontranos {
   padding-bottom: 15px;
 }
 main .flex-encontranos img {
-  width: 400px;
   height: 250px;
 }
 
@@ -195,17 +253,18 @@ footer .flex-footer {
 }
 @media only screen and (max-width: 768px) {
   nav.box-menu {
-    height: 100px;
-    align-items: flex-end;
+    display: none;
   }
   ul.links-menu {
-    padding-left: 2px;
-    padding-top: 45px;
+    display: none;
   }
   .inicio-menu {
-    top: 10px;
+    display: none;
   }
   .carrito-menu {
-    top: 10px;
+    display: none;
+  }
+  section.desplegablenav {
+    display: block;
   }
 }/*# sourceMappingURL=estilos.css.map */

@@ -1,4 +1,5 @@
 @media only screen and (max-width: 1400px) {
+ 
     nav.box-menu {
       height: 50px;
       align-items: center;
@@ -18,19 +19,21 @@
   
   @media only screen and (max-width: 768px) {
     nav.box-menu {
-      height: 100px;
-      align-items: flex-end;
+      display: none;
+     
     }
     ul.links-menu {
-     
-      padding-left: 2px;
-      padding-top: 45px;
+      display: none;
     }
+      
     .inicio-menu {
-      top: 10px;
+      display: none;}
+    
+    .carrito-menu {display: none;
+    
     }
-    .carrito-menu {
-      top: 10px;
+    section.desplegablenav{
+      display: block;
     }
     
   }
