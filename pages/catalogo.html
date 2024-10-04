@@ -37,20 +37,18 @@
           <div class="bg-blue p-4">
             <nav class="box-menu-desplegable">
               <div class="inicio-menu-desplegable">
-                <a href="../index.html"><i class="fa-solid fa-house color-blanco"></i> </a>
+                <a href="../index.html"
+                  ><i class="fa-solid fa-house color-blanco"></i>
+                </a>
               </div>
               <ul class="links-menu-desplegable">
                 <li>
-                  <a
-                    href="./contactanos.html"
-                    style="text-decoration: none"
+                  <a href="./contactanos.html" style="text-decoration: none"
                     >CONTACTANOS</a
                   >
                 </li>
                 <li>
-                  <a href="#" style="text-decoration: none"
-                    >CATALOGO</a
-                  >
+                  <a href="#" style="text-decoration: none">CATALOGO</a>
                 </li>
                 <li>
                   <a href="./nosotros.html" style="text-decoration: none"
@@ -58,9 +56,7 @@
                   >
                 </li>
                 <li>
-                  <a
-                    href="./encontranos.html"
-                    style="text-decoration: none"
+                  <a href="./encontranos.html" style="text-decoration: none"
                     >ENCONTRANOS</a
                   >
                 </li>
@@ -137,14 +133,25 @@
               impedit.
             </p>
           </div>
-          <div class="col-sm-12 col-md-12 col-lg-12 listado-container">
-            <img
-              src="../assets/img/listadodeprecios2.jpg"
-              alt="listado de precios 1"
-            />
-          </div>
         </div>
       </section>
+
+      <main>
+        <section id="productos">
+          <h3>Productos Disponibles</h3>
+          <div class="lista-productos" id="listaProductos">
+            
+          </div>
+        </section>
+    
+        <section id="carrito">
+          <h4>Carrito de Compras</h4>
+          <div class="lista-carrito" id="listaCarrito"></div>
+          <h5>Total: $<span id="totalCarrito">0</span></h5>
+          <button id="comprar">Comprar</button>
+        </section>
+        <div id="mensaje"></div>
+      </main>
     </main>
     <footer class="box-basic">
       <!-- la idea es poner el logo que representa el cada link y que redireccione al usuario a nuestro perfil-->
@@ -176,5 +183,7 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <script
+    src="../AppEcomerce.js"></script>
   </body>
 </html>
