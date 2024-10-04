@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 
 const mostrarMensaje = (mensaje) => {
   const mensajeDiv = document.getElementById('mensaje');
