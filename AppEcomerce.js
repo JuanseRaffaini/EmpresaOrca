@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-
->>>>>>> acb75d4b894535b8af1e14c484aa377c0c7feb98
 
 const mostrarMensaje = (mensaje) => {
   const mensajeDiv = document.getElementById('mensaje');
